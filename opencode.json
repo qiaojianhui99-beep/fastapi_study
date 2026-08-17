@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "Cherry-My": {
+      "npm": "@ai-sdk/openai",
+      "name": "Cherry-My",
+      "options": {
+        "apiKey": "{env:OPENCODE_API_KEY_MY}",
+        "baseURL": "http://cli-proxy-joe.duckdns.org/v1"
+      },
+      "models": {
+        "grok-4.5": {
+          "name": "grok-4.5",
+          "reasoning": true
+        }
+      }
+    }
+  }
+}
