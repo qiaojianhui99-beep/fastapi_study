@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# IDE / editor
+.idea/
+opencode.json
+.claude/
